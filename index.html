@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+	
+<title>Bonnafous Tennis Academy</title>
+	
+<meta charset="utf-8">
+	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+<style type="text/css"> @import url("style.css");
+</style>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="script.js"></script>
+	
+<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+	
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">Bonnafous Tennis</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+		<li><a href="#coach">COACH MATTHIEU</a></li>
+		<li><a href="#academy">TENNIS ACADEMY</a></li>
+		<li><a href="#information">INFORMATION</a></li>
+		<li><a href="#booking">BOOKING</a></li>
+		<li><a href="#contact">CONTACT</a></li>
+		<li><a href="#gallery">GALLERY</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+		
+<div class="bg container-fluid">
+   <div class="row">
+	<img src="images/jumbotron_bg.JPG" alt="background" class="img-responsive">
+   </div>
+</div>
+	
+<div class="icon container-fluid">
+   <div class="row">
+	   <a href="#coach"><img src="images/icon_bar.JPG" alt="credentials" class="img-responsive"></a>
+   </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <h2>ABOUT [tbc]</h2>
+  <p>Bonnafous Tennis Academy is a training centre set up by Coach Matthieu Bonnafous to players at all levels and ages. Specializing in trainig that embraces both leisure and competition, each lesson is tailored according to techniques that Coach Matthieu picked up over his 18 years of coaching.</p>
+  <a href="#coach" class="btn btn-default btn-lg">READ MORE</a>
+</div>
+
+<div class="container-fluid bg-white">	
+<form id="contact-form" method="post" action="contact.php" role="form">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>We're glad to hear from you and we'll get back to you within 1 working day.</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +65 9999 9999</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p> 
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <label for="form_name">Firstname *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+        </div>
+        <div class="col-sm-6 form-group">
+         <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+        </div>
+      </div>
+      <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div> 
+		        <div class="row">
+            <div class="col-md-12">
+                <p class="text-muted">
+                    <strong>*</strong> These fields are required.</p>
+    </div>
+  </div>
+</div>
+	</div>
+	</form>
+	</div>
+
+	
+
+
+
+	
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+</footer>
+</body>
+</html>
